@@ -1,0 +1,53 @@
+.checkboxWrap {
+    position: relative;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .checkedCircleWrap {
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    visibility: hidden;
+  }
+  
+  .checkedCircle {
+    width: 16px;
+    height: 16px;
+    background-color: #4b5c92;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circleWhite {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .customCheckbox {
+    position: relative;
+    border-radius: 50% !important;
+    width: 16px;
+    height: 16px;
+    outline: none;
+    border: 1px solid #4b5c92;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    z-index: 1;
+  }
+  .customCheckbox:checked {
+    border: none;
+  }
+  .customCheckbox:checked + .checkedCircleWrap {
+    visibility: visible;
+  }

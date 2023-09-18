@@ -1,0 +1,10 @@
+.container-main {
+  /* padding: 0 0px 80px 0px; */
+  width: 100% !important;
+  overflow: hidden;
+  word-wrap: break-word;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: unset !important;
+  box-sizing: border-box;
+}

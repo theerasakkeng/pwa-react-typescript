@@ -1,0 +1,16 @@
+.addressCardWrap {
+    font-weight: 300;
+}
+
+.topCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topCardLeft {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #4b5c92;
+}

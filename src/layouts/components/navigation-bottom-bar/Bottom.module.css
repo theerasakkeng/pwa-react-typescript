@@ -1,0 +1,39 @@
+.bottombarWrap {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 40px 40px 0 0;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  padding: 0 20px;
+  z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.bottombarMenuWrap {
+  width: 33.3333%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuTitle {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.iconMenu {
+  position: relative;
+  padding: 5px;
+}
+
+.active .iconMenu {
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  border-radius: 50%;
+}

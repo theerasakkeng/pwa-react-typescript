@@ -1,0 +1,35 @@
+.pageHeader {
+  position: absolute;
+  z-index: -1;
+  height: 200px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(89, 223, 170);
+  background: linear-gradient(
+    220deg,
+    rgba(89, 223, 170, 1) 0%,
+    rgba(72, 197, 251, 1) 100%
+  );
+  border-radius: 0 0 20% 20%;
+  overflow: hidden;
+}
+
+.pageHeader::before {
+  content: "";
+  position: absolute;
+  width: 67%;
+  height: 120%;
+  border-radius: 50%;
+  top: -55%;
+  left: -5%;
+  background: rgb(40, 130, 236);
+  background: linear-gradient(
+    0deg,
+    rgba(40, 130, 236, 1) 0%,
+    rgba(49, 164, 253, 1) 50%,
+    rgba(112, 186, 244, 1) 100%
+  );
+  z-index: 1;
+  transform: rotate(10deg) scale(1.2);
+}
