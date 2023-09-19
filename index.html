@@ -2,23 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/slack.png" />
+    <link rel="icon" type="image/png" href="/application.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Modern PWA CRM Application" />
+    <link rel="apple-touch-icon" href="/public/slack.png" />
+    <title>PWA</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>
-      if('serviceWorker' in navigator){
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register("/src/pwa/serviceworker.js").then((reg) => {
-            console.log('Success',reg.scope);
-          }).catch((err) => {
-            console.log('Fail', err);
-          })
-        })
-      }
-    </script>
   </body>
 </html>

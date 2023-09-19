@@ -1,0 +1,15 @@
+{
+    "short_name": "CRM APP",
+    "name": "CRM APP PWA",
+    "icons": [
+        {
+            "src": "/public/application.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
